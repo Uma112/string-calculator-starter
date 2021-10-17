@@ -24,4 +24,10 @@ class StringCalculatorShould {
    public void twoNumbers_Comma_Delimited_Returns_Sum() {
 		 assertEquals(3, stringCalculator.add("1,2"));
 	}
+   
+ //test 2
+   @Test
+ 	public void amountofNumbers_CommaDelimited_ReturnsSum() {
+ 		assertEquals(7, stringCalculator.add("1,2,1,3"));
+ 	}
 }
