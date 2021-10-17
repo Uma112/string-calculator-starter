@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-17T12:19:02 IST" name="Default suite" finished-at="2021-10-17T12:19:02 IST" duration-ms="132">
+  <suite started-at="2021-10-17T12:49:06 IST" name="Default suite" finished-at="2021-10-17T12:49:06 IST" duration-ms="151">
     <groups>
     </groups>
-    <test started-at="2021-10-17T12:19:02 IST" name="Default test" finished-at="2021-10-17T12:19:02 IST" duration-ms="132">
+    <test started-at="2021-10-17T12:49:06 IST" name="Default test" finished-at="2021-10-17T12:49:06 IST" duration-ms="151">
       <class name="calculator.StringCalculatorShould">
-        <test-method signature="Numbers_GreaterThan_1000()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:19:02 IST" name="Numbers_GreaterThan_1000" finished-at="2021-10-17T12:19:02 IST" duration-ms="26" status="PASS">
+        <test-method signature="Numbers_GreaterThan_1000()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:49:06 IST" name="Numbers_GreaterThan_1000" finished-at="2021-10-17T12:49:06 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Numbers_GreaterThan_1000 -->
-        <test-method signature="Numbers_NewLine_Delimited_ReturnsSum()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:19:02 IST" name="Numbers_NewLine_Delimited_ReturnsSum" finished-at="2021-10-17T12:19:02 IST" duration-ms="3" status="PASS">
+        <test-method signature="Numbers_NewLine_Delimited_ReturnsSum()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:49:06 IST" name="Numbers_NewLine_Delimited_ReturnsSum" finished-at="2021-10-17T12:49:06 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Numbers_NewLine_Delimited_ReturnsSum -->
-        <test-method signature="Numbers_semicol_Delimited_ReturnsSum()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:19:02 IST" name="Numbers_semicol_Delimited_ReturnsSum" finished-at="2021-10-17T12:19:02 IST" duration-ms="3" status="PASS">
+        <test-method signature="Numbers_semicol_Delimited_ReturnsSum()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:49:06 IST" name="Numbers_semicol_Delimited_ReturnsSum" finished-at="2021-10-17T12:49:06 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Numbers_semicol_Delimited_ReturnsSum -->
-        <test-method signature="amountofNumbers_CommaDelimited_ReturnsSum()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:19:02 IST" name="amountofNumbers_CommaDelimited_ReturnsSum" finished-at="2021-10-17T12:19:02 IST" duration-ms="2" status="PASS">
+        <test-method signature="amountofNumbers_CommaDelimited_ReturnsSum()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:49:06 IST" name="amountofNumbers_CommaDelimited_ReturnsSum" finished-at="2021-10-17T12:49:06 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amountofNumbers_CommaDelimited_ReturnsSum -->
-        <test-method signature="empty_string_should_return_0()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:19:02 IST" name="empty_string_should_return_0" finished-at="2021-10-17T12:19:02 IST" duration-ms="3" status="PASS">
+        <test-method signature="empty_string_should_return_0()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:49:06 IST" name="empty_string_should_return_0" finished-at="2021-10-17T12:49:06 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- empty_string_should_return_0 -->
-        <test-method signature="negative_Input_Returns_Exception()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:19:02 IST" name="negative_Input_Returns_Exception" finished-at="2021-10-17T12:19:02 IST" duration-ms="2" status="PASS">
+        <test-method signature="negative_Input_Returns_Exception()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:49:06 IST" name="negative_Input_Returns_Exception" finished-at="2021-10-17T12:49:06 IST" duration-ms="6" status="PASS">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[negatives not allowed]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.Exception: negatives not allowed
-at calculator.StringCalculator.checkNegativeNumber(StringCalculator.java:36)
-at calculator.StringCalculator.getSum(StringCalculator.java:22)
+at calculator.StringCalculator.checkNegativeNumber(StringCalculator.java:40)
+at calculator.StringCalculator.getSum(StringCalculator.java:26)
 at calculator.StringCalculator.add(StringCalculator.java:18)
 at calculator.StringCalculatorShould.negative_Input_Returns_Exception(StringCalculatorShould.java:49)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -72,11 +72,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negative_Input_Returns_Exception -->
-        <test-method signature="string_with_single_number_should_return_number_as_int()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:19:02 IST" name="string_with_single_number_should_return_number_as_int" finished-at="2021-10-17T12:19:02 IST" duration-ms="2" status="PASS">
+        <test-method signature="string_with_single_number_should_return_number_as_int()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:49:06 IST" name="string_with_single_number_should_return_number_as_int" finished-at="2021-10-17T12:49:06 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- string_with_single_number_should_return_number_as_int -->
-        <test-method signature="twoNumbers_Comma_Delimited_Returns_Sum()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:19:02 IST" name="twoNumbers_Comma_Delimited_Returns_Sum" finished-at="2021-10-17T12:19:02 IST" duration-ms="2" status="PASS">
+        <test-method signature="twoNumbers_Comma_Delimited_Returns_Sum()[pri:0, instance:calculator.StringCalculatorShould@3cc1435c]" started-at="2021-10-17T12:49:06 IST" name="twoNumbers_Comma_Delimited_Returns_Sum" finished-at="2021-10-17T12:49:06 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoNumbers_Comma_Delimited_Returns_Sum -->

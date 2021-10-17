@@ -54,4 +54,5 @@ class StringCalculatorShould {
 	public void Numbers_GreaterThan_1000() throws Exception {
 		assertEquals(2, stringCalculator.add("2,1001"));
 	}
+
 }
