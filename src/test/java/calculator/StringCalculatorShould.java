@@ -45,7 +45,13 @@ class StringCalculatorShould {
 
 	// Test 5: Negative number throws exception
 	@Test(expectedExceptions = Exception.class)
-	public void negativeInputReturnsException() throws Exception{
+	public void negative_Input_Returns_Exception() throws Exception {
 		stringCalculator.add("-1");
+	}
+
+	// Test 6:Numbers bigger than 1000 should be ignored
+	@Test
+	public void Numbers_GreaterThan_1000() throws Exception {
+		assertEquals(2, stringCalculator.add("2,1001"));
 	}
 }
