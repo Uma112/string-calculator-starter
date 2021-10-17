@@ -25,7 +25,7 @@ class StringCalculatorShould {
 		 assertEquals(3, stringCalculator.add("1,2"));
 	}
    
- //test 2 :handle an unknown amount of numbers
+ //Test 2 :handle an unknown amount of numbers
    @Test
  	public void amountofNumbers_CommaDelimited_ReturnsSum() {
  		assertEquals(7, stringCalculator.add("1,2,1,3"));
@@ -34,6 +34,6 @@ class StringCalculatorShould {
  //Test 3:Allow the Add method to handle new lines between numbers
    @Test
  	public void Numbers_NewLine_Delimited_ReturnsSum() {	
-	   assertEquals(6, stringCalculator.add("1\n,3"));
+	   assertEquals(6, stringCalculator.add("1\n2,3"));
  	}
 }
