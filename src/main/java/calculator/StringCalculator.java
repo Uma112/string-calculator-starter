@@ -3,7 +3,7 @@ package calculator;
 class StringCalculator {
 
 //  kata Test  --->  Unknown amount of numbers to handle
-	//Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+	// Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
 
 	public int add(String input) {
 		String[] numbers = input.split(",");
@@ -18,8 +18,8 @@ class StringCalculator {
 
 	private int getSum(String[] numbers) {
 		int sum = 0;
-		for (int current = 0; current < numbers.length; current++) {
-			sum = sum + Integer.parseInt(numbers[current]);
+		for (String current : numbers) {
+			sum = sum + Integer.parseInt(current);
 		}
 		return sum;
 	}
