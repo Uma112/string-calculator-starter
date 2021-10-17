@@ -19,16 +19,24 @@ class StringCalculator {
 	}
 
 	private int getSum(String[] numbers) throws Exception {
-		for (String current : numbers) {
-			if (stringToInt(current) < 0) {
-				throw new Exception("negatives not allowed");
-			}
-		}
+		checkNegativeNumber(numbers);
 		int sum = 0;
 		for (String current : numbers) {
+			if(stringToInt(current)>1000) {
+				continue;
+			}
 			sum = sum + stringToInt(current);
 		}
 		return sum;
+	}
+
+	private void checkNegativeNumber(String[] numbers) throws Exception {
+		for (String current:numbers) {
+			if(stringToInt(current)<0) {
+				throw new Exception ("negatives not allowed");
+			}
+		}
+
 	}
 
 	private boolean isEmpty(String input) {
