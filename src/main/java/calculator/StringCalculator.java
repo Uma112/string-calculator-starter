@@ -2,8 +2,8 @@ package calculator;
 
 class StringCalculator {
 
-//  kata Test  ---> handle new lines between numbers (instead of commas)
-	// Total tests run: 5, Passes: 5, Failures: 0, Skips: 0
+//  kata Test  ---> semi colon separator
+	// Total tests run: 6, Passes: 6, Failures: 0, Skips: 0
 
 	private final String delimiter = ",|\n|;";
 
