@@ -2,8 +2,8 @@ package calculator;
 
 class StringCalculator {
 
-//  kata Test  ---> semi colon separator
-	// Total tests run: 7, Passes: 7, Failures: 0, Skips: 0
+//  kata Test  ---> Numbers bigger than 1000 should be ignored
+	// Total tests run: 8, Passes: 8, Failures: 0, Skips: 0
 
 	private final String delimiter = ",|\n|;";
 
@@ -22,7 +22,7 @@ class StringCalculator {
 		checkNegativeNumber(numbers);
 		int sum = 0;
 		for (String current : numbers) {
-			if(stringToInt(current)>1000) {
+			if (stringToInt(current) > 1000) {
 				continue;
 			}
 			sum = sum + stringToInt(current);
@@ -31,9 +31,9 @@ class StringCalculator {
 	}
 
 	private void checkNegativeNumber(String[] numbers) throws Exception {
-		for (String current:numbers) {
-			if(stringToInt(current)<0) {
-				throw new Exception ("negatives not allowed");
+		for (String current : numbers) {
+			if (stringToInt(current) < 0) {
+				throw new Exception("negatives not allowed");
 			}
 		}
 
@@ -41,7 +41,6 @@ class StringCalculator {
 
 	private boolean isEmpty(String input) {
 		return input.isEmpty();
-
 	}
 
 	private int stringToInt(String input) {
