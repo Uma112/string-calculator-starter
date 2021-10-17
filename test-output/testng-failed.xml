@@ -5,7 +5,7 @@
     <classes>
       <class name="calculator.StringCalculatorShould">
         <methods>
-          <include name="Numbers_NewLine_Delimited_ReturnsSum"/>
+          <include name="Numbers_semicol_Delimited_ReturnsSum"/>
         </methods>
       </class> <!-- calculator.StringCalculatorShould -->
     </classes>

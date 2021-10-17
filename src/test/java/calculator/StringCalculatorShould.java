@@ -36,4 +36,10 @@ class StringCalculatorShould {
  	public void Numbers_NewLine_Delimited_ReturnsSum() {	
 	   assertEquals(6, stringCalculator.add("1\n2,3"));
  	}
+   
+ //Test 4:Semi colon separator
+   @Test
+ 	public void Numbers_semicol_Delimited_ReturnsSum() {	
+	   assertEquals(3, stringCalculator.add("1;2"));
+ 	}
 }
