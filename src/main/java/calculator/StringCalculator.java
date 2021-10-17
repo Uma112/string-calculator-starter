@@ -2,8 +2,12 @@ package calculator;
 
 class StringCalculator {
 
+//  kata Test  --->  2
     public int add(String input) {
-        return 0;   // Test empty_string_should_return_0: pass
-    }
+   	 if(input.isEmpty()) {
+   	  return 0;
+   	}
+   	  return Integer.parseInt(input);
+   }
     
 }
