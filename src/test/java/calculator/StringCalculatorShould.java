@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 @Test
 class StringCalculatorShould {
-
+	StringCalculator stringCalculator = new StringCalculator();
     @Test
     void empty_string_should_return_0() {
         StringCalculator stringCalculator = new StringCalculator();
@@ -20,4 +20,8 @@ class StringCalculatorShould {
         assertEquals(1, stringCalculator.add("1"));
     }
    
+   @Test
+   public void twoNumbers_Comma_Delimited_Returns_Sum() {
+		 assertEquals(3, stringCalculator.add("1,2"));
+	}
 }
