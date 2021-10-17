@@ -3,6 +3,7 @@ package calculator;
 class StringCalculator {
 
 //  kata Test  --->  Unknown amount of numbers to handle
+	//Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
 
 	public int add(String input) {
 		String[] numbers = input.split(",");
