@@ -27,7 +27,7 @@ class StringCalculator {
 		checkNegativeNumber(numbers);
 		int sum = 0;
 		for (String current : numbers) {
-			if (stringToInt(current) > 1000) {
+			if (stringToInt(current) >= 1000) {
 				continue;
 			}
 			sum = sum + stringToInt(current);
