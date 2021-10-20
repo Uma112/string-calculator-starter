@@ -4,6 +4,10 @@ class StringCalculator {
 
 //  kata Test  ---> Numbers bigger than 1000 should be ignored
 	// Total tests run: 8, Passes: 8, Failures: 0, Skips: 0
+	
+//	Ignore all the numbers between 1000 and 10000
+//	Input: “1,2,9999,3” output: 6
+//	Input: “//[;]\n1000;2000;3000;10000” output: 11000
 
 	private final String delimiter = ",|\n|;";
 
@@ -15,6 +19,7 @@ class StringCalculator {
 		if (input.length() == 1) {
 			return stringToInt(input);
 		}
+		
 		return getSum(numbers);
 	}
 

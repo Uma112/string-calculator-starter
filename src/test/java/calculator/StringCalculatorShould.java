@@ -54,5 +54,12 @@ class StringCalculatorShould {
 	public void Numbers_GreaterThan_1000() throws Exception {
 		assertEquals(2, stringCalculator.add("2,1001"));
 	}
+	
+	// Test 6:Numbers bigger than 1000 should be ignored
+		@Test
+		public void Numbers_GreaterThan_1000_10000() throws Exception {
+			assertEquals(6, stringCalculator.add("1,2,9999,3"));
+		}
+	
 
 }
